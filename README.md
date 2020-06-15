@@ -36,6 +36,25 @@ We want our block to be part of block chain
 Some properties of block include:
 1.)index, timestamp created , data/information , previous hash.
 
+So the main.js deals with creating a block and a simple block chain.
+
+Inorder to make the block chain valid we are making sure the hash generated from the crypto-js library isvalid and assigned to teh genesis node (first bloc of the block chain)
+
+and also we check if each and every hash of the block is equal to the previous block hash.
+
+============================================================IS BLOCK CHAIN SECURE==========================
+We also talk about the block chain as a chain of blocks of information and that the copy of this block chain is available , distributed
+across the nodes of the network.
+
+The copy is same across all.
+
+What is someone tampers the information of any of the blocks ?
+
+So this is a security risk , isn't it ?
+
+So we take care of this issue by making sure that, the new blocks addition and existing blocks in the block chain updation needs some validation by all the nodes in the network and they are kept informed of any changes.
+
+
 
 
 
