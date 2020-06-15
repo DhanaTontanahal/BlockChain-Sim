@@ -25,4 +25,17 @@ which requires consensus of the network majority.
  Although blockchain records are not unalterable, blockchains may be considered secure by design and
  exemplify a distributed computing system with high fault tolerance.
  
-The repo simulates the block chain technology implementaion using javascript.
+The repo simulates the block chain technology implemented using javascript.
+
+There can be many ways of doing the same , bu this is the humble try from my end to learn, understand and represent the block chain technology.
+
+
+We want our block to be part of block chain
+
+>b----b1<--->b2<---->b3<--->and so on
+Some properties of block include:
+1.)index, timestamp created , data/information , previous hash.
+
+
+
+
