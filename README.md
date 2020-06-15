@@ -54,6 +54,22 @@ So this is a security risk , isn't it ?
 
 So we take care of this issue by making sure that, the new blocks addition and existing blocks in the block chain updation needs some validation by all the nodes in the network and they are kept informed of any changes.
 
+With modern computing power , it is also possible to spammer with any number of new blocks or even update the existing blocks if the validations are not proper for any new block creation or updation.
+
+So We have this security issue solved with the concept of "proof of work" in the block chain.
+
+Mining or proof of work denotes the amount of work / processing done before any new block is created .
+
+For example: Bitcoin solves this problem by making the block's hash to begin with certain amount of 0's
+
+Since we cannot influence the output of hashfunction, it requires lot of computational power to crack any block's hash.
+And in the case of bitcoin, any new block creation requires 10 minutes of proof of work or mining to be demonstrated and implemented to and across the nodes of the distributed network.
+
+Just to simulate the proof of work involved in creation of each block , we do it mining_block.js , we are tryimg to create a hash which involves the addition of 0's as per the given difficulty level which inturn involves the mining for each and every block creation.
+
+
+
+
 
 
 
