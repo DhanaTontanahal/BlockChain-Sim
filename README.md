@@ -51,6 +51,7 @@ The copy is same across all.
 What is someone tampers the information of any of the blocks ?
 
 So this is a security risk , isn't it ?
+#SAFETY OF BLOCKCHAIN:
 
 So we take care of this issue by making sure that, the new blocks addition and existing blocks in the block chain updation needs some validation by all the nodes in the network and they are kept informed of any changes.
 
